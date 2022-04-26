@@ -1,0 +1,57 @@
+:root{
+    --font-sistem: 'Ubuntu', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62,5rem;
+    flex-wrap: wrap;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 15px;
+    border: 1px rgb(206, 200, 200) solid;
+    border-radius: 3px;
+}
+
+.logo img {
+    margin: 0;
+    height: 30px;
+    margin: 10px  100px 10px 10px;
+}
+
+.icon-inside input {
+    display: none;
+    width: 0vw;
+}
+
+.ul-nav{
+    display: flex;
+}
+
+.ul-nav li {
+    list-style: none;    
+}
+
+.ul-nav li a {
+    text-decoration: none; 
+    padding-right: 15px;
+    color: black;
+    font-size: small;
+}
+
+.main-filters{
+    font-family: var(--font-sistem);
+}
